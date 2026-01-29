@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             ADIL RAEES
             </a>
             <p className="mt-4 text-[#666666] text-xs font-bold uppercase tracking-[0.2em]">
-              Frontend Developer • Karachi
+              Frontend Developer
             </p>
           </div>
           
