@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-12 md:space-y-0">
           <div>
             <a href="#home" className="text-xl font-black text-white tracking-tighter">
-              MUHAMMAD ADIL
+            ADIL RAEES
             </a>
             <p className="mt-4 text-[#666666] text-xs font-bold uppercase tracking-[0.2em]">
               Frontend Developer • Karachi

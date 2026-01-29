@@ -5,7 +5,7 @@ import { PROJECTS } from '../constants';
 
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="py-24 px-6">
+    <section id="projects" className="py-0 px-6 md:py-24">
       <div className="max-w-7xl mx-auto">
         <SectionHeading 
           subtitle="Portfolio" 

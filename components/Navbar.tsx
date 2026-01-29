@@ -80,7 +80,7 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <a
-            href="#contact"
+            href="contact"
             className="w-full bg-white text-black block py-4 text-center text-lg font-bold rounded-sm mt-4"
             onClick={() => setIsMobileMenuOpen(false)}
           >
