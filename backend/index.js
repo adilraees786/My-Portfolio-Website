@@ -86,7 +86,7 @@ app.post('/api/contact', (req, res) => {
             res.status(200).json({ message: 'Message sent successfully' });
         });
     });
-});
+}); 
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
