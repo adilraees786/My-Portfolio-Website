@@ -37,21 +37,40 @@ export const PROJECTS: Project[] = [
 ];
 
 export const SKILLS: Skill[] = [
-  // Frontend
-  { name: 'React.js / Next.js', icon: '⚛️', category: 'Frontend' },
-  { name: 'JavaScript (ES6+)', icon: '📜', category: 'Frontend' },
-  { name: 'Tailwind CSS', icon: '🎨', category: 'Frontend' },
-  { name: 'Material UI / Shadcn', icon: '🏗️', category: 'Frontend' },
-  // Backend / Architecture
-  { name: 'SSR / SSG', icon: '⚡', category: 'Backend' },
-  { name: 'SEO Optimization', icon: '🔍', category: 'Backend' },
-  { name: 'Zustand / Redux', icon: '📦', category: 'Backend' },
-  // Design
-  { name: 'Figma to UI', icon: '🖋️', category: 'Design' },
-  { name: 'UI/UX Collaboration', icon: '🤝', category: 'Design' },
+  // Languages
+  { name: 'HTML5', icon: '🌐', category: 'Languages' },
+  { name: 'CSS3', icon: '🎨', category: 'Languages' },
+  { name: 'JavaScript (ES6+)', icon: '📜', category: 'Languages' },
+  { name: 'TypeScript', icon: '📜', category: 'Languages' },
+
+  // Frameworks / Libraries
+  { name: 'React.js', icon: '⚛️', category: 'Framework/Libraries' },
+  { name: 'Next.js', icon: '⚛️', category: 'Framework/Libraries' },
+  { name: 'Astro.js', icon: '🚀', category: 'Framework/Libraries' },
+  { name: 'Tailwind CSS', icon: '🎨', category: 'Framework/Libraries' },
+  { name: 'Material UI', icon: '🏗️', category: 'Framework/Libraries' },
+  { name: 'Bootstrap', icon: '🅱️', category: 'Framework/Libraries' },
+  { name: 'Shadcn', icon: '🏗️', category: 'Framework/Libraries' },
+
+  // State Management
+  { name: 'Redux / Redux Toolkit', icon: '🔄', category: 'State Management' },
+  { name: 'Zustand', icon: '📦', category: 'State Management' },
+
+  // Architecture / Web
+  { name: 'SSR / SSG', icon: '⚡', category: 'Architecture' },
+  { name: 'Routing', icon: '�️', category: 'Architecture' },
+  { name: 'Responsive Design', icon: '�', category: 'Architecture' },
+  { name: 'Cross-Browser Compatibility', icon: '🌐', category: 'Architecture' },
+  { name: 'SEO Optimization', icon: '�', category: 'Architecture' },
+  { name: 'Performance Optimization', icon: '🚀', category: 'Architecture' },
+
   // Tools
   { name: 'Git / GitHub', icon: '🐙', category: 'Tools' },
   { name: 'VS Code / Cursor AI', icon: '💻', category: 'Tools' },
+
+  // Design
+  { name: 'Figma (Basic)', icon: '🖋️', category: 'Design' },
+  { name: 'UI/UX Collaboration', icon: '🤝', category: 'Design' },
 ];
 
 export const EXPERIENCE = [
@@ -65,6 +84,12 @@ export const EXPERIENCE = [
     company: 'Linkitsoft',
     role: 'Frontend Developer',
     period: 'Jan 2025 – Jun 2025',
+    location: 'Karachi',
+  },
+  {
+    company: 'Smit',
+    role: 'MERN Stack Intern',
+    period: 'Jan 2024 – Oct 2024',
     location: 'Karachi',
   }
 ];

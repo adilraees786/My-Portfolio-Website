@@ -12,7 +12,7 @@ export interface Project {
 export interface Skill {
   name: string;
   icon: string;
-  category: 'Frontend' | 'Backend' | 'Design' | 'Tools';
+  category: 'Languages' | 'Framework/Libraries' | 'State Management' | 'Architecture' | 'Tools' | 'Design';
 }
 
 export interface NavItem {

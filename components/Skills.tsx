@@ -4,7 +4,14 @@ import SectionHeading from './SectionHeading';
 import { SKILLS } from '../constants';
 
 const Skills: React.FC = () => {
-  const categories = ['Frontend', 'Backend', 'Design', 'Tools'] as const;
+  const categories = [
+    'Languages',
+    'Framework/Libraries',
+    'State Management',
+    'Architecture',
+    'Tools',
+    'Design',
+  ] as const;
 
   return (
     <section id="skills" className="py-24 px-6 bg-[#050505] border-y border-[#111111]">
@@ -15,13 +22,13 @@ const Skills: React.FC = () => {
           center 
         />
         
-        <div className="mt-20 grid sm:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-16">
+        <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-16">
           {categories.map((category) => (
             <div key={category}>
               <h3 className="text-xs font-black text-[#666666] uppercase tracking-[0.2em] mb-8 pb-4 border-b border-[#222222]">
                 {category}
               </h3>
-              <ul className="space-y-6">
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8">
                 {SKILLS.filter(s => s.category === category).map((skill) => (
                   <li key={skill.name} className="flex flex-col">
                     <span className="text-white font-bold text-lg mb-1">{skill.name}</span>
