@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
           center 
         />
         
-        <div className="mt-20 grid md:grid-cols-2 gap-12">
+        <div className="mt-20 grid md:grid-cols-3 grid-cols-2 gap-12">
           {PROJECTS.map((project) => (
             <div 
               key={project.id} 
